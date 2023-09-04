@@ -1,7 +1,7 @@
 {
   "name": "MyTube",
   "version": "1.0.0",
-  "homepage": "https://dannymak1993.github.io/MyTube",
+  "homepage": "https://dannymak1993.github.io/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
