@@ -4,7 +4,7 @@ import { Box } from '@mui/material';
 import { ChannelDetail, VideoDetail, SearchFeed, Navbar, Feed } from './components';
 
 const App = () => (
-  <BrowserRouter basename="/MyTube">
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Box sx={{ backgroundColor: '#000' }}>
       <Navbar />
       <Routes>
